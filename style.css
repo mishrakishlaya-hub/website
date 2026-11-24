@@ -594,3 +594,20 @@ footer p { font-size: 0.9rem; line-height: 1.7; }
     .profile-photo { width: 200px; height: 260px; }
     .section-header h2 { font-size: 1.5rem; }
 }
+
+
+/* Connect section: phone, email, LinkedIn buttons */
+.social-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    white-space: nowrap;
+}
+
+.social-link[href^="mailto:"] {
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
